@@ -20,9 +20,9 @@ To get started:
     
 ## References
 
-Demo: https://trello-cards-veolocity.glitch.me/
+Demo: https://trello-cards-velocity.glitch.me/
 
-Glitch: https://glitch.com/edit/#!/trello-cards-veolocity
+Glitch: https://glitch.com/edit/#!/trello-cards-velocity
 
 Medium Post: [Hacking a Trello card velocity tracker with Glitch](https://medium.com/the-backlog-by-nimbo-x/hacking-a-trello-card-velocity-tracker-with-glitch-1a4d34878dd0)
 
