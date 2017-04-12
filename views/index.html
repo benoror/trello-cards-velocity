@@ -1,0 +1,48 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trello Cards Velocity Tracker</title>
+    <meta name="description" content="Trello Shopping List">
+    <link id="favicon" rel="icon" href="https://glitch.com/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Cards Velocity
+      </h1>
+      <div id="date-picker">
+        
+      </div>
+    </header>
+
+    <hr>
+    
+    <main>
+      <section class="stages">
+        <ul id="stages">
+        </ul>
+      </section>
+    </main>
+
+    <footer id="gWidget"></footer>
+    <script src="https://widget.glitch.me/widget.min.js"></script>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script type="text/javascript">
+      // Load up our template info into a variable for scripts
+      var trelloBoard = '<%= trelloBoard %>';
+    </script>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="https://api.trello.com/1/client.js?key=<%= trelloAppKey %>"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+	"name": "trello-cards-veolocity",
+	"version": "0.0.1",
+	"description": "Trello Cards Velocity",
+  "author": "Ben Orozco <benoror@gmail.com.com> (http://benoror.com/)"
+,
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+    "express": "^4.12.4",
+    "ejs": "*"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"keywords": [
+		"node",
+		"express"
+	],
+	"license": "MIT"
+}
