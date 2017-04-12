@@ -26,6 +26,8 @@ Glitch: https://glitch.com/edit/#!/trello-cards-veolocity
 
 Medium Post: [Hacking a Trello card velocity tracker with Glitch](https://medium.com/the-backlog-by-nimbo-x/hacking-a-trello-card-velocity-tracker-with-glitch-1a4d34878dd0)
 
+Repo: https://github.com/benoror/trello-cards-velocity
+
 Trello API: https://developers.trello.com/advanced-reference/list#get-1-lists-idlist-cards-filter
 
 ## To Do
